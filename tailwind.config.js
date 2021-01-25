@@ -1,5 +1,6 @@
 module.exports = {
   corePlugins: {
+    // Remove this line to reset basic style
     preflight: false,
   },
   purge: ["./imports/ui/**/*.tsx"],
